@@ -1,0 +1,45 @@
+ssh-keygen AND cat -/.ssh/id_rsa.pub => Show SSH Key
+
+1.git init => for git start
+
+2.git config --global user.name (username)
+
+3.git config --global user.email (your mail)=> For user information
+
+4.git status => to know "change flie" and check your file
+
+5.git add . Or git add (filename) => to add file for commit
+
+6.git commit -m (name) =>to create commit
+
+7.git log =>show all commit
+
+8.git pull -M origin (name) =>to pull offline from git-online
+
+9.git push -M origin (name) => to upload into git-online
+
+10.git log --online AND git log --online n5 =>to show summary in commit
+
+11.git clone (url) =>to copy for project
+
+12.git branch =>to view or check branch
+
+13.git branch (name) => to create new branch
+
+14. git branch -D (branch name) => to delete branch
+
+15.git checkout (branch's name and commit ) => switch to another branch and commit
+
+16.git checkout -b (developer-name)/(project-name) => switch to developer's branch
+
+16.git restore --staged (filename) => to restart file
+
+17.git restore(filename) => to undo file
+
+18.git clean -f =>delete file
+
+19.git clean -fd =>delete folder
+
+20.git reset --hard (commit-code)=> delete commit
+
+21.git fetch origin
