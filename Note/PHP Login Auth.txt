@@ -1,0 +1,35 @@
+		Laravel 8 Authentication	
+
+1. install laravel
+
+2. Create Database
+
+3. data import(own user)
+
+4. composer require laravel/jetstream
+
+5. php artisan jetstream:install livewire
+
+6. npm install && npm run dev
+
+7. php artisan migrate
+
+8. php artisan serve
+
+
+App/Provider/AppServiceProvider.php
+
+use Illuminate\Support\Facades\Schema;
+
+Schema::defaltstringLength(191);
+
+-----------------------------------------------------------
+
+1.composer require laravel/ui
+
+2. php artisan ui bootstrap
+
+3. npm install && npm run dev
+
+
+

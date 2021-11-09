@@ -1,0 +1,43 @@
+1.composer create-project --prefer-dist 
+laravel/laravel (name) -> install laravel 
+
+2.php artisan migrate -> local data ကို database ထဲထည့်တာ
+
+3.php artisan make:model Post -m ->
+for create migrate table and models
+
+4.php artisan make:controller (name) -r ->
+to create controller
+
+5.{{csrf-field}} => to secure code
+
+6.   protected $fillable = ['title', 'content']; => to connet model and controller with base in variable;
+
+7.old() => for remain input text;
+
+8. $posts = post::all();
+ 	return view('posts.index', compact('posts'));
+
+9.return redirect('index')->with('success', 'Upload Success')
+
+10.@yield('<name>')
+   @extand('<fileLocation>')
+   @session()
+   @endsession
+
+11. $request->validate([
+            'title'=>'requied',
+            'img'=>'requied',
+            'content'=>'requied',
+        ]);
+
+12. @error('title') is-invalid @enderror => if error occurs, show me.
+
+13. )ZpXF!V%Lnh_ =>password
+
+14.composer config platform-check false
+
+and
+
+15. composer update
+-----------------------------------
